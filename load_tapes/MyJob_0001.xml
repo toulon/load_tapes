@@ -1,0 +1,30 @@
+<?xml-stylesheet href="SignalTEK-II_Report.xslt" type="text/xsl" ?>
+<SignalTEK-II_Report>
+<jobReport>
+<jobCfg jobName="MyJob" jobCompany="" jobAddress1="" jobAddress2="" jobCity="" jobState="" jobZip="" jobCountry="" jobPhone1="" jobPhone2="" jobTestTotal="8" jobTestPassed="2" />
+<ownerCfg ownerName="COLIN" ownerCompany="MAXIM" ownerAddress1="14320 SW Jenkins RD " ownerAddress2="" ownerCity="Beaverton" ownerState="OR." ownerZip="97005" ownerCountry="USA" ownerPhone1="503-277-4611" ownerPhone2="" />
+<testReport name="0001" result="passed" repDate="19/11/2010" repTime="16:33:21" >
+<resVersion verProduct="SignalTEK II" verSoftware="1.0.2 03/05/2012" verESN="001606-8864FC" verFirmware="0.o" verHardware="1.0" />
+<resTornadoRemote remoteModel="SignalTEK II" remoteESN="001606-8864d2" remoteFirmVer1="1972" remoteFirmVer2="000d" remoteFirmVer3="0.5" remoteFirmVer4="1.0.1" />
+<resWiremap>
+<wiremapCfg wiremapDisplayPref="1" wiremapCableType="4" wiremapXoverAllowed="0" wiremapUseCustomNvp="0" wiremapCustomNvp="72" />
+<wiremapRes wiremapResStatus="9" wiremapResFailed="0" wiremapResWireAvailable="1" wiremapResScreen="0" wiremapResRemotePinNumber="13" wiremapResRemoteType="1" wiremapResRemoteVersion="0" wiremapResCableStatus="2" wiremapResShortPinTo1="0" wiremapResConnectivityPinTo1="1" wiremapResRemShortPinTo1="0" wiremapResShortPinTo2="0" wiremapResConnectivityPinTo2="2" wiremapResRemShortPinTo2="0" wiremapResShortPinTo3="0" wiremapResConnectivityPinTo3="3" wiremapResRemShortPinTo3="0" wiremapResShortPinTo4="0" wiremapResConnectivityPinTo4="4" wiremapResRemShortPinTo4="0" wiremapResShortPinTo5="0" wiremapResConnectivityPinTo5="5" wiremapResRemShortPinTo5="0" wiremapResShortPinTo6="0" wiremapResConnectivityPinTo6="6" wiremapResRemShortPinTo6="0" wiremapResShortPinTo7="0" wiremapResConnectivityPinTo7="7" wiremapResRemShortPinTo7="0" wiremapResShortPinTo8="0" wiremapResConnectivityPinTo8="8" wiremapResRemShortPinTo8="0" wiremapResShortPinTo9="0" wiremapResConnectivityPinTo9="0" wiremapResRemShortPinTo9="0" wiremapResSplitPairAvailable="1" wiremapResSplitPairType1="0" wiremapResSplitPairPin1="0" wiremapResSplitPairType2="0" wiremapResSplitPairPin2="0" wiremapResSplitPairType3="0" wiremapResSplitPairPin3="0" wiremapResSplitPairType4="0" wiremapResSplitPairPin4="0" wiremapResSplitPairType5="0" wiremapResSplitPairPin5="0" wiremapResSplitPairType6="0" wiremapResSplitPairPin6="0" wiremapResSplitPairType7="0" wiremapResSplitPairPin7="0" wiremapResSplitPairType8="0" wiremapResSplitPairPin8="0" wiremapResLengthAvailable="1" wiremapResNvpUsed="72" wiremapResLengthFactor="m" wiremapResPairLength1="1" wiremapResPairLength2="1" wiremapResPairLength3="1" wiremapResPairLength4="0" />
+</resWiremap>
+<resLink>
+<linkCfg linkAuto="1" linkSpeed="1" linkMode="0" linkMdi="0" linkMinFrameSize="64" vlanEnable="0" vlanId="0" vlanPriority="0" />
+<linkResMain linkResStatus="1" linkResFailed="0" linkResSpeed="7" linkResDuplex="1" linkResMdi="2" linkResSignalLevel="0" linkResPolarity="0" linkResPoeDetected="0" linkResPoeState="0" linkResPoeDetectedFromDetectorIC="0" linkResVlanEnable="0" linkResVlanId="0" linkResVlanPriority="0" linkResCap10MFD="1" linkResCap10MHD="1" linkResCap100MFD="1" linkResCap100MHD="1" linkResCap1000MFD="1" linkResCap1000MHD="0" linkResCap100baseT4="0" linkResCapPause="1" linkResCapAsymPause="1" linkResCapNextPage="1" linkResCapRemoteFault="0" linkResCapAck="1" linkResCapTechAbility="0" linkResCapRemAutoNeg="1" />
+<linkResMon linkResStatus="0" linkResFailed="0" linkResSpeed="0" linkResDuplex="0" linkResMdi="0" linkResSignalLevel="0" linkResPolarity="0" linkResPoeDetected="0" linkResPoeState="0" linkResPoeDetectedFromDetectorIC="0" linkResVlanEnable="0" linkResVlanId="0" linkResVlanPriority="0" linkResCap10MFD="0" linkResCap10MHD="0" linkResCap100MFD="0" linkResCap100MHD="0" linkResCap1000MFD="0" linkResCap1000MHD="0" linkResCap100baseT4="0" linkResCapPause="0" linkResCapAsymPause="0" linkResCapNextPage="0" linkResCapRemoteFault="0" linkResCapAck="0" linkResCapTechAbility="0" linkResCapRemAutoNeg="0" />
+<linkResSkew linkResSkewPair1_2="0" linkResSkewPair3_6="8" linkResSkewPair4_5="8" linkResSkewPair7_8="0" />
+</resLink>
+<resService>
+<serviceCfg serviceInterface="0" serviceWifiAvailable="0" serviceEptMonitor="0" serviceRemoteMacAddr="00:16:06:88:64:d2" />
+<serviceRes serviceResStatus="3" serviceResFailed="0" serviceResInterface="0" serviceResMode="9" serviceResVoltage1="0" serviceResVoltage2="0" serviceResVoltage3="0" serviceResVoltage4="0" serviceResCurrent1="0" serviceResCurrent2="0" />
+<sfpRes sfpVendor="-" sfpPartnumber="-" sfpRxpwr="0" sfpTxpwr="0" />
+</resService>
+<ResPerfTests_Cable>
+<PerfTestsCfg_Cable PerfTests_Cable_IEEE802_3="1" PerfTests_Cable_FrameSize="1518" PerfTests_Cable_FrameFill="00000000" PerfTests_Cable_Duration="10" PerfTests_Cable_Threshold="0" PerfTests_Cable_InformationRate="0.000000" />
+<PerfTestsRes_Cable PerfTestsResStatus_0="7" PerfTestsResFailed_0="0" PerfTestsResEnabled_0="1" PerfTestsResActive_0="1" PerfTestsResElapsed_0="10" PerfTestsResLineRate_0="1000" PerfTestsResFD_0="1" PerfTestsResFrameSize_0="1518" PerfTestsResFrameRate_0="81274" PerfTestsResTX_Frames_0="812743" PerfTestsResTX_Percent_0="100" PerfTestsResTX_Pass_0="1" PerfTestsResRX_Frames_0="812743" PerfTestsResRX_Percent_0="100" PerfTestsResRX_Pass_0="1" PerfTestsResError_Frames_0="0" PerfTestsResError_Percent_0="0" PerfTestsResError_Pass_0="1" />
+</ResPerfTests_Cable>
+</testReport>
+</jobReport>
+</SignalTEK-II_Report>

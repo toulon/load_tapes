@@ -1,0 +1,57 @@
+extends layout
+block content
+  h1= title
+    // Wrapper
+  #wrapper
+    // USER INFO
+    #tapeInfo
+      h2 Tape Info
+      p
+        strong Label:
+        | <span id='tapeInfoLabel'></span>
+        br
+        strong Date:
+        | <span id='tapeInfoAction_date'></span>
+        br
+        strong Action:
+        | <span id='tapeInfoAction'></span>
+        br
+        strong Location:
+        | <span id='tapeInfoLocation'></span>
+    // /USER INFO
+                    // USER LIST
+    h2 Tape List
+    #tapeList
+      if last_10
+        p last_10 = #{last_10}
+      else
+        p last_10 is undefined
+      label(for='last_10') Display Last 10 records:
+      input#last_10(type='checkbox', name=last_10)
+      table
+        thead
+          th Tape Label
+          th Action
+          th Action Date
+          th Delete?
+        tbody
+    // /USER LIST
+  // /WRAPPER
+  // /ADD USER
+  h2 Add Tape
+    #addTape
+      fieldset
+        input#inputTapeLabel(type='text', placeholder='Label')
+        br
+        input#inputTapeAction(type='text', placeholder='Action')
+        input#inputTapeAction_date(type='date', value=mom, placeholder='Action_date')
+        br
+        p
+      select#inputTapeLocation(name="inputTapeLocation")
+        option(value="") -- Select Location --
+        - var options = [{value: 'onsite', label: 'Onsite'}, {value: 'offsite', label: 'Offsite'}]
+        each option in options
+          option(value=option.value, selected=(inputTapeLocation=option.value))= option.label
+        p
+        br
+      button#btnAddTape Add Tape
